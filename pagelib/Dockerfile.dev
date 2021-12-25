@@ -1,4 +1,4 @@
-FROM docker-registry.wikimedia.org/nodejs12-devel
+FROM node:12
 USER "root"
 ENV HOME="/root"
 ENV DEBIAN_FRONTEND="noninteractive"
